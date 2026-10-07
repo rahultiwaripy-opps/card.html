@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(#00aeff 45%, white 45%);
+}
+
+.box {
+  width: 470px;
+  height: 550px;
+  border: 1px solid;
+  border-color: rgba(52, 49, 49, 0.4);
+  border-bottom: none;
+  border-radius: 11px;
+  margin: auto;
+  margin-top: 60px;
+  background: linear-gradient(#03a9f4 45%, white 60%);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  width: 225px;
+  height: 288px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-image: url(girl-image.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: #4a4a4a;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h2 {
+  margin-top: 10px;
+  text-align: center;
+  color: #03a9f4;
+  font-weight: 800;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.box1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  color: #3a3a3a;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
